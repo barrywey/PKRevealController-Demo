@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A16CF91917C46B6600ACF586 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16CF91817C46B6600ACF586 /* UIKit.framework */; };
+		A16CF91B17C46B6600ACF586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16CF91A17C46B6600ACF586 /* Foundation.framework */; };
+		A16CF91D17C46B6600ACF586 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16CF91C17C46B6600ACF586 /* CoreGraphics.framework */; };
+		A16CF92317C46B6600ACF586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A16CF92117C46B6600ACF586 /* InfoPlist.strings */; };
+		A16CF92517C46B6600ACF586 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CF92417C46B6600ACF586 /* main.m */; };
+		A16CF92917C46B6600ACF586 /* RevealControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CF92817C46B6600ACF586 /* RevealControllerAppDelegate.m */; };
+		A16CF92B17C46B6600ACF586 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A16CF92A17C46B6600ACF586 /* Default.png */; };
+		A16CF92D17C46B6600ACF586 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A16CF92C17C46B6600ACF586 /* Default@2x.png */; };
+		A16CF92F17C46B6600ACF586 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A16CF92E17C46B6600ACF586 /* Default-568h@2x.png */; };
+		A16CF93C17C4A95300ACF586 /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CF93717C4A95300ACF586 /* PKRevealController.m */; };
+		A16CF93D17C4A95300ACF586 /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CF93917C4A95300ACF586 /* PKRevealControllerContainerView.m */; };
+		A16CF93E17C4A95300ACF586 /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CF93B17C4A95300ACF586 /* UIViewController+PKRevealController.m */; };
+		A16CF94217C4AC0900ACF586 /* MainFaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CF94017C4AC0900ACF586 /* MainFaceController.m */; };
+		A16CF94317C4AC0900ACF586 /* MainFaceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A16CF94117C4AC0900ACF586 /* MainFaceController.xib */; };
+		A16CF94C17C4AC7600ACF586 /* LeftFaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CF94A17C4AC7600ACF586 /* LeftFaceController.m */; };
+		A16CF94D17C4AC7600ACF586 /* LeftFaceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A16CF94B17C4AC7600ACF586 /* LeftFaceController.xib */; };
+		A16CF94F17C4B31B00ACF586 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16CF94E17C4B31B00ACF586 /* QuartzCore.framework */; };
+		A16CF95817C4B5D200ACF586 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16CF95617C4B5D200ACF586 /* ProfileViewController.m */; };
+		A16CF95917C4B5D200ACF586 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A16CF95717C4B5D200ACF586 /* ProfileViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A16CF91517C46B6600ACF586 /* PKRevealControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKRevealControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16CF91817C46B6600ACF586 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A16CF91A17C46B6600ACF586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A16CF91C17C46B6600ACF586 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A16CF92017C46B6600ACF586 /* PKRevealControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PKRevealControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		A16CF92217C46B6600ACF586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A16CF92417C46B6600ACF586 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A16CF92617C46B6600ACF586 /* PKRevealControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PKRevealControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A16CF92717C46B6600ACF586 /* RevealControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevealControllerAppDelegate.h; sourceTree = "<group>"; };
+		A16CF92817C46B6600ACF586 /* RevealControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealControllerAppDelegate.m; sourceTree = "<group>"; };
+		A16CF92A17C46B6600ACF586 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A16CF92C17C46B6600ACF586 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A16CF92E17C46B6600ACF586 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A16CF93617C4A95300ACF586 /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKRevealController.h; path = PKRevealController/PKRevealController.h; sourceTree = "<group>"; };
+		A16CF93717C4A95300ACF586 /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKRevealController.m; path = PKRevealController/PKRevealController.m; sourceTree = "<group>"; };
+		A16CF93817C4A95300ACF586 /* PKRevealControllerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKRevealControllerContainerView.h; path = PKRevealController/PKRevealControllerContainerView.h; sourceTree = "<group>"; };
+		A16CF93917C4A95300ACF586 /* PKRevealControllerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKRevealControllerContainerView.m; path = PKRevealController/PKRevealControllerContainerView.m; sourceTree = "<group>"; };
+		A16CF93A17C4A95300ACF586 /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PKRevealController.h"; path = "PKRevealController/UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
+		A16CF93B17C4A95300ACF586 /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PKRevealController.m"; path = "PKRevealController/UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
+		A16CF93F17C4AC0900ACF586 /* MainFaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFaceController.h; sourceTree = "<group>"; };
+		A16CF94017C4AC0900ACF586 /* MainFaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFaceController.m; sourceTree = "<group>"; };
+		A16CF94117C4AC0900ACF586 /* MainFaceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainFaceController.xib; sourceTree = "<group>"; };
+		A16CF94917C4AC7600ACF586 /* LeftFaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftFaceController.h; sourceTree = "<group>"; };
+		A16CF94A17C4AC7600ACF586 /* LeftFaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftFaceController.m; sourceTree = "<group>"; };
+		A16CF94B17C4AC7600ACF586 /* LeftFaceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftFaceController.xib; sourceTree = "<group>"; };
+		A16CF94E17C4B31B00ACF586 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A16CF95517C4B5D200ACF586 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A16CF95617C4B5D200ACF586 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		A16CF95717C4B5D200ACF586 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A16CF91217C46B6600ACF586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16CF94F17C4B31B00ACF586 /* QuartzCore.framework in Frameworks */,
+				A16CF91917C46B6600ACF586 /* UIKit.framework in Frameworks */,
+				A16CF91B17C46B6600ACF586 /* Foundation.framework in Frameworks */,
+				A16CF91D17C46B6600ACF586 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A16CF90C17C46B6600ACF586 = {
+			isa = PBXGroup;
+			children = (
+				A16CF94E17C4B31B00ACF586 /* QuartzCore.framework */,
+				A16CF91E17C46B6600ACF586 /* PKRevealControllerDemo */,
+				A16CF91717C46B6600ACF586 /* Frameworks */,
+				A16CF91617C46B6600ACF586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A16CF91617C46B6600ACF586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A16CF91517C46B6600ACF586 /* PKRevealControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A16CF91717C46B6600ACF586 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A16CF91817C46B6600ACF586 /* UIKit.framework */,
+				A16CF91A17C46B6600ACF586 /* Foundation.framework */,
+				A16CF91C17C46B6600ACF586 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A16CF91E17C46B6600ACF586 /* PKRevealControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A16CF92817C46B6600ACF586 /* RevealControllerAppDelegate.m */,
+				A16CF92717C46B6600ACF586 /* RevealControllerAppDelegate.h */,
+				A16CF94917C4AC7600ACF586 /* LeftFaceController.h */,
+				A16CF94A17C4AC7600ACF586 /* LeftFaceController.m */,
+				A16CF94B17C4AC7600ACF586 /* LeftFaceController.xib */,
+				A16CF93F17C4AC0900ACF586 /* MainFaceController.h */,
+				A16CF94017C4AC0900ACF586 /* MainFaceController.m */,
+				A16CF94117C4AC0900ACF586 /* MainFaceController.xib */,
+				A16CF93517C4A90E00ACF586 /* PKRevealController */,
+				A16CF91F17C46B6600ACF586 /* Supporting Files */,
+				A16CF95517C4B5D200ACF586 /* ProfileViewController.h */,
+				A16CF95617C4B5D200ACF586 /* ProfileViewController.m */,
+				A16CF95717C4B5D200ACF586 /* ProfileViewController.xib */,
+			);
+			path = PKRevealControllerDemo;
+			sourceTree = "<group>";
+		};
+		A16CF91F17C46B6600ACF586 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A16CF92017C46B6600ACF586 /* PKRevealControllerDemo-Info.plist */,
+				A16CF92117C46B6600ACF586 /* InfoPlist.strings */,
+				A16CF92417C46B6600ACF586 /* main.m */,
+				A16CF92617C46B6600ACF586 /* PKRevealControllerDemo-Prefix.pch */,
+				A16CF92A17C46B6600ACF586 /* Default.png */,
+				A16CF92C17C46B6600ACF586 /* Default@2x.png */,
+				A16CF92E17C46B6600ACF586 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A16CF93517C4A90E00ACF586 /* PKRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				A16CF93617C4A95300ACF586 /* PKRevealController.h */,
+				A16CF93717C4A95300ACF586 /* PKRevealController.m */,
+				A16CF93817C4A95300ACF586 /* PKRevealControllerContainerView.h */,
+				A16CF93917C4A95300ACF586 /* PKRevealControllerContainerView.m */,
+				A16CF93A17C4A95300ACF586 /* UIViewController+PKRevealController.h */,
+				A16CF93B17C4A95300ACF586 /* UIViewController+PKRevealController.m */,
+			);
+			name = PKRevealController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A16CF91417C46B6600ACF586 /* PKRevealControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A16CF93217C46B6600ACF586 /* Build configuration list for PBXNativeTarget "PKRevealControllerDemo" */;
+			buildPhases = (
+				A16CF91117C46B6600ACF586 /* Sources */,
+				A16CF91217C46B6600ACF586 /* Frameworks */,
+				A16CF91317C46B6600ACF586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PKRevealControllerDemo;
+			productName = PKRevealControllerDemo;
+			productReference = A16CF91517C46B6600ACF586 /* PKRevealControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A16CF90D17C46B6600ACF586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RevealController;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Barry Wey";
+			};
+			buildConfigurationList = A16CF91017C46B6600ACF586 /* Build configuration list for PBXProject "PKRevealControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A16CF90C17C46B6600ACF586;
+			productRefGroup = A16CF91617C46B6600ACF586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A16CF91417C46B6600ACF586 /* PKRevealControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A16CF91317C46B6600ACF586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16CF92317C46B6600ACF586 /* InfoPlist.strings in Resources */,
+				A16CF92B17C46B6600ACF586 /* Default.png in Resources */,
+				A16CF92D17C46B6600ACF586 /* Default@2x.png in Resources */,
+				A16CF92F17C46B6600ACF586 /* Default-568h@2x.png in Resources */,
+				A16CF94317C4AC0900ACF586 /* MainFaceController.xib in Resources */,
+				A16CF94D17C4AC7600ACF586 /* LeftFaceController.xib in Resources */,
+				A16CF95917C4B5D200ACF586 /* ProfileViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A16CF91117C46B6600ACF586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16CF92517C46B6600ACF586 /* main.m in Sources */,
+				A16CF92917C46B6600ACF586 /* RevealControllerAppDelegate.m in Sources */,
+				A16CF93C17C4A95300ACF586 /* PKRevealController.m in Sources */,
+				A16CF93D17C4A95300ACF586 /* PKRevealControllerContainerView.m in Sources */,
+				A16CF93E17C4A95300ACF586 /* UIViewController+PKRevealController.m in Sources */,
+				A16CF94217C4AC0900ACF586 /* MainFaceController.m in Sources */,
+				A16CF94C17C4AC7600ACF586 /* LeftFaceController.m in Sources */,
+				A16CF95817C4B5D200ACF586 /* ProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A16CF92117C46B6600ACF586 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A16CF92217C46B6600ACF586 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A16CF93017C46B6600ACF586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A16CF93117C46B6600ACF586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A16CF93317C46B6600ACF586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKRevealControllerDemo/PKRevealControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "PKRevealControllerDemo/PKRevealControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A16CF93417C46B6600ACF586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKRevealControllerDemo/PKRevealControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "PKRevealControllerDemo/PKRevealControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A16CF91017C46B6600ACF586 /* Build configuration list for PBXProject "PKRevealControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16CF93017C46B6600ACF586 /* Debug */,
+				A16CF93117C46B6600ACF586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A16CF93217C46B6600ACF586 /* Build configuration list for PBXNativeTarget "PKRevealControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16CF93317C46B6600ACF586 /* Debug */,
+				A16CF93417C46B6600ACF586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A16CF90D17C46B6600ACF586 /* Project object */;
+}
